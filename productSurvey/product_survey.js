@@ -9,7 +9,7 @@ function submitFeedback() {
     document.getElementById('userInfo').style.display = 'block';
     alert('Thank you for your valuable feedback')
 }
-submitButton.onclick = submitFeedback;
+
 
 const username = document.getElementById('name').value;
 const age = document.getElementById('age').value;
@@ -19,7 +19,7 @@ const designation = document.getElementById('designation').value;
 const productType = document.getElementById('productType').value;
 const feedback = document.getElementById('feedbackText').value;
 const submitButton=document.getElementById('submitBtn');
-
+submitButton.onclick = submitFeedback;
 
 
 document.addEventListener('keydown', function(event) {
