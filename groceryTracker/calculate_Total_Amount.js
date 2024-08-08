@@ -7,7 +7,7 @@ function add() {
     grocery3 = parseFloat(document.getElementById('grocery3').value);
 
    
-   let amount = grocery1 + grocery2 +grocery3;
+   let amount = grocery1 + grocery2 + grocery3;
    document.getElementById('result').innerText = `The total amount is: ${amount}`;
 
    }
