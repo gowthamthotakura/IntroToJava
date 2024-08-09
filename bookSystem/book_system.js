@@ -33,3 +33,6 @@ function clearInputs() {
     document.getElementById('bookDescription').value = '';
     document.getElementById('pagesNumber').value = '';
 }
+function deletebook() {
+books.splice(index, 1);
+}
